@@ -10,10 +10,12 @@
 ```
 |--- src
 |    |--- controllers
+|    |    |--- v1
 |    |--- database
 |    |--- interfaces
 |    |--- middlewares
 |    |--- routes
+|    |    |--- v1
 |    |--- services
 |    |--- utils
 |    |--- server.ts
@@ -42,20 +44,17 @@ Before you begin, ensure you have the following installed on your machine:
 
 ## Contribution Guide
 
-## Getting Started
+#### If you don't have Git on your machine, [install it](https://docs.github.com/en/get-started/quickstart/set-up-git).
 
-#### If you don't have git on your machine, [install it](https://docs.github.com/en/get-started/quickstart/set-up-git).
+### Fork this Repository
 
-## Fork this repository
+Fork this repository by clicking on the fork button on the top of this page. This will create a copy of this repository in your account.
 
-Fork this repository by clicking on the fork button on the top of this page.
-This will create a copy of this repository in your account.
-
-## Clone the repository
+### Clone the Repository
 
 <img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/clone.png" alt="clone this repository" />
 
-Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button and then click the _copy to clipboard_ icon.
+Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button, and then click the _copy to clipboard_ icon.
 
 Open a terminal and run the following git command:
 
@@ -63,7 +62,7 @@ Open a terminal and run the following git command:
 git clone "url you just copied"
 ```
 
-where "url you just copied" (without the quotation marks) is the url to this repository (your fork of this project). See the previous steps to obtain the url.
+where "url you just copied" (without the quotation marks) is the URL to this repository (your fork of this project). See the previous steps to obtain the URL.
 
 <img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/copy-to-clipboard.png" alt="copy URL to clipboard" />
 
@@ -75,7 +74,7 @@ git clone git@github.com:this-is-you/first-contributions.git
 
 where `this-is-you` is your GitHub username. Here you're copying the contents of the first-contributions repository on GitHub to your computer.
 
-## Create a branch
+### Create a Branch
 
 Change to the repository directory on your computer (if you are not already there):
 
@@ -107,9 +106,9 @@ Run the existing tests to ensure your changes do not break anything. If you adde
 npm run test
 ```
 
-## commit those changes
+### Commit Your Changes
 
-Now open `Contributors.md` file in a text editor, add your name to it. Don't add it at the beginning or end of the file. Put it anywhere in between. Now, save the file.
+Now open the `Contributors.md` file in a text editor, add your name to it. Don't add it at the beginning or end of the file. Put it anywhere in between. Now, save the file.
 
 <img align="right" width="450" src="https://firstcontributions.github.io/assets/Readme/git-status.png" alt="git status" />
 
@@ -117,7 +116,11 @@ If you go to the project directory and execute the command `git status`, you'll 
 
 Add those changes to the branch you just created using the `git add` command:
 
-## Push changes to GitHub
+```bash
+git add .
+```
+
+### Push Changes to GitHub
 
 Push your changes using the command `git push`:
 
@@ -128,7 +131,7 @@ git push -u origin your-branch-name
 replacing `your-branch-name` with the name of the branch you created earlier.
 
 <details>
-<summary> <strong>If you get any errors while pushing, click here:</strong> </summary>
+<summary><strong>If you get any errors while pushing, click here:</strong></summary>
 
 - ### Authentication Error
      <pre>remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
@@ -138,7 +141,7 @@ replacing `your-branch-name` with the name of the branch you created earlier.
 
 </details>
 
-## Submit your changes for review into Staging
+### Submit Your Changes for Review into Staging
 
 If you go to your repository on GitHub, you'll see a `Compare & pull request` button. Click on that button.
 
@@ -207,29 +210,6 @@ npm run start
 
 Open your browser and navigate to `http://localhost:3000/api/v1/` to verify that the application is running correctly.
 
-## Folder Structure
-
-Here's an overview of the project's folder structure:
-
-```
-|--- src
-|    |--- controllers
-          |--- v1
-|    |--- database
-|    |--- interfaces
-|    |--- middlewares
-|    |--- routes
-|         |--- v1
-|    |--- services
-|    |--- utils
-|    |--- server.ts
-|--- .env
-|--- app.ts
-|--- .gitignore
-|--- package.json
-|--- tsconfig.json
-```
-
 ## Scripts
 
 Here are some useful npm scripts that you can use during development and production:
@@ -261,3 +241,12 @@ This project is versioned to ensure backward compatibility and easy maintenance.
 - **API Design**: [API Design Link](https://hng-api-design.tiiny.site)
 - **DB Design**: [DB Design Link](https://drive.google.com/file/d/1-XP5c0tlHtQjy-OLdg15kZZyHg23lK3T/view?usp=drive_link)
 ```
+
+### Summary of Changes:
+
+1. **Folder Structure**: Updated to include `v1` directories under `controllers` and `routes`.
+2. **Section Headings**: Added clarity by using consistent headings and subheadings.
+3. **Code Blocks**: Added missing code block for the `git add .` command.
+4. **Links**: Ensure placeholders like `[App Name]`, `[Description]`, `[Other dependencies]`, `[app-name]`, and `[version]` are replaced with actual values.
+5. **Detail Sections**: Provided additional explanation and fixed formatting for detail sections like "If you get any errors while pushing, click here."
+
