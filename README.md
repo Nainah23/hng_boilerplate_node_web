@@ -2,28 +2,36 @@
 # [App Name] Integration Documentation
 
 ## Overview
+```
+
+## Submission Links
+
+- **API Design**: [API Design Link](https://hng-api-design.tiiny.site)
+- **DB Design**: [DB Design Link](https://drive.google.com/file/d/1-XP5c0tlHtQjy-OLdg15kZZyHg23lK3T/view?usp=drive_link)
 
 [Description]
 
 ## Folder Structure
 
 ```
+
 |--- src
-|    |--- controllers
-|    |    |--- v1
-|    |--- database
-|    |--- interfaces
-|    |--- middlewares
-|    |--- routes
-|    |    |--- v1
-|    |--- services
-|    |--- utils
-|    |--- server.ts
+| |--- controllers
+| | |--- v1
+| |--- database
+| |--- interfaces
+| |--- middlewares
+| |--- routes
+| | |--- v1
+| |--- services
+| |--- utils
+| |--- server.ts
 |--- .env
 |--- app.ts
 |--- .gitignore
 |--- package.json
 |--- tsconfig.json
+
 ```
 
 ## Dependencies (Dev)
@@ -240,6 +248,7 @@ This project is versioned to ensure backward compatibility and easy maintenance.
 
 - **API Design**: [API Design Link](https://hng-api-design.tiiny.site)
 - **DB Design**: [DB Design Link](https://drive.google.com/file/d/1-XP5c0tlHtQjy-OLdg15kZZyHg23lK3T/view?usp=drive_link)
+
 ```
 
 ### Summary of Changes:
@@ -250,3 +259,4 @@ This project is versioned to ensure backward compatibility and easy maintenance.
 4. **Links**: Ensure placeholders like `[App Name]`, `[Description]`, `[Other dependencies]`, `[app-name]`, and `[version]` are replaced with actual values.
 5. **Detail Sections**: Provided additional explanation and fixed formatting for detail sections like "If you get any errors while pushing, click here."
 
+```
