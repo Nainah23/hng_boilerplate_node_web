@@ -1,3 +1,4 @@
+```markdown
 # [App Name] Integration Documentation
 
 ## Overview
@@ -254,3 +255,9 @@ All API endpoints can be referenced in the [API Reference](API_REFERENCE.md) doc
 ## Versioning
 
 This project is versioned to ensure backward compatibility and easy maintenance. The current version is [version].
+
+## Links
+
+- **API Design**: [API Design Link](https://hng-api-design.tiiny.site)
+- **DB Design**: [DB Design Link](https://drive.google.com/file/d/1-XP5c0tlHtQjy-OLdg15kZZyHg23lK3T/view?usp=drive_link)
+```
