@@ -1,13 +1,21 @@
-```markdown
-# [App Name] Integration Documentation
+## Markdown
+
+### HNG_BOILERPLATE_NODEJS - Integration Documentation
 
 ## Overview
-```
 
-## Submission Links
+# Submission Links Below
 
 - **API Design**: [API Design Link](https://hng-api-design.tiiny.site)
 - **DB Design**: [DB Design Link](https://drive.google.com/file/d/1-XP5c0tlHtQjy-OLdg15kZZyHg23lK3T/view?usp=drive_link)
+
+### Summary of Changes:
+
+1. **Folder Structure**: Updated to include `v1` directories under `controllers` and `routes`.
+2. **Section Headings**: Added clarity by using consistent headings and subheadings.
+3. **Code Blocks**: Added missing code block for the `git add .` command.
+4. **Links**: Ensure placeholders like `[App Name]`, `[Description]`, `[Other dependencies]`, `[app-name]`, and `[version]` are replaced with actual values.
+5. **Detail Sections**: Provided additional explanation and fixed formatting for detail sections like "If you get any errors while pushing, click here."
 
 [Description]
 
@@ -249,8 +257,6 @@ This project is versioned to ensure backward compatibility and easy maintenance.
 - **API Design**: [API Design Link](https://hng-api-design.tiiny.site)
 - **DB Design**: [DB Design Link](https://drive.google.com/file/d/1-XP5c0tlHtQjy-OLdg15kZZyHg23lK3T/view?usp=drive_link)
 
-```
-
 ### Summary of Changes:
 
 1. **Folder Structure**: Updated to include `v1` directories under `controllers` and `routes`.
@@ -258,5 +264,3 @@ This project is versioned to ensure backward compatibility and easy maintenance.
 3. **Code Blocks**: Added missing code block for the `git add .` command.
 4. **Links**: Ensure placeholders like `[App Name]`, `[Description]`, `[Other dependencies]`, `[app-name]`, and `[version]` are replaced with actual values.
 5. **Detail Sections**: Provided additional explanation and fixed formatting for detail sections like "If you get any errors while pushing, click here."
-
-```
